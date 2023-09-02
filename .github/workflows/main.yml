@@ -20,3 +20,4 @@ jobs:
           git-author-email: 'octocat@github.com'
           git-author-name: 'Octocat'
           sync-repository: LoopTurn/testingAutoSync
+          result-branch-name: ${{inputs.sync_repository}}
