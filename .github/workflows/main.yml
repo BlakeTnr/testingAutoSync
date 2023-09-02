@@ -19,4 +19,4 @@ jobs:
         with:
           git-author-email: 'octocat@github.com'
           git-author-name: 'Octocat'
-          sync-repository: BlakeTur/testingAutoSync
+          sync-repository: BlakeTnr/testingAutoSync
