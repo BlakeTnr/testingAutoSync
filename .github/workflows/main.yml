@@ -2,7 +2,8 @@ name: auto-sync
 on:
   push:
     branches:
-    - origin/main
+      - origin/main
+  workflow_dispatch:
 
 jobs:
   sync:
