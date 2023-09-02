@@ -1,0 +1,20 @@
+on:
+  push:
+    branches:
+    - origin/main
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      # - name: Checkout files
+      #   uses: actions/checkout@v2
+      #   with:
+      #     repository: octocat/dst-repsotiory
+      #     token: ${{ secrets.octocat_token }}
+      - name: Sync files with dst-octocat-repsotiory!
+        uses: denis-tingajkin/sync-files@main
+        with:
+          git-author-email: 'octocat@github.com'
+          git-author-name: 'Octocat'
+          src-repository: LoopTurn/testingAutoSync
