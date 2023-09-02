@@ -12,7 +12,7 @@ jobs:
       - name: Checkout files
         uses: actions/checkout@v2
         with:
-          repository: octocat/dst-repsotiory
+          repository: LoopTurn/testingAutoSync
           token: ${{ secrets.PAT }}
       - name: Sync files with dst-octocat-repsotiory!
         uses: denis-tingajkin/sync-files@main
