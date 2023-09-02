@@ -12,11 +12,11 @@ jobs:
       - name: Checkout files
         uses: actions/checkout@v2
         with:
-          repository: LoopTurn/testingAutoSync
+          repository: BlakeTnr/testingAutoSync
           token: ${{ secrets.PAT }}
       - name: Sync files with dst-octocat-repsotiory!
         uses: denis-tingajkin/sync-files@main
         with:
           git-author-email: 'octocat@github.com'
           git-author-name: 'Octocat'
-          sync-repository: BlakeTnr/testingAutoSync
+          sync-repository: LoopTurn/testingAutoSync
