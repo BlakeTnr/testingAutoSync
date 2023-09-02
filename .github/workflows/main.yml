@@ -19,4 +19,4 @@ jobs:
         with:
           git-author-email: 'octocat@github.com'
           git-author-name: 'Octocat'
-          sync-repository: LoopTurn/testingAutoSync
+          sync-repository: BlakeTur/testingAutoSync
